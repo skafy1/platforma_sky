@@ -147,3 +147,94 @@ h6 {
     -webkit-text-fill-color: transparent;
     margin: 0 auto;
 }
+@media screen and (max-width: 1350px){
+    .img_green_left{
+        max-width: 1000px;
+        height: 759px;
+    }
+    .img_blue_right{
+        max-width: 900px;
+        height: 708px;
+    }
+}
+@media screen and (max-width: 1050px){
+    .img_green_left{
+        max-width: 700px;
+        height: 659px;
+    }
+    .img_blue_right{
+        max-width: 500px;
+        height: 708px;
+    }
+}
+@media screen and (max-width: 820px){
+    .img_green_left{
+        max-width: 300px;
+        height: 459px;
+    }
+    .img_blue_right{
+        max-width: 300px;
+        height: 508px;
+    }
+    .vhod{
+        margin-top: 100px;
+        max-width: 464px;
+        height: 365px;
+    }
+    .inp_name_vhod{
+        max-width: 370px;
+        height: 40px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+    .line_vhod{
+        width: 370px;
+        margin-left: 50px;
+    }
+    .btn{
+        max-width: 230px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 22px;
+        margin: 10px auto 0;
+    }
+    .salka_btn{
+        margin: 0;
+        height: 40px;
+    }
+    .button_box{
+        margin: 0;
+    }
+    .title_last_vhod {
+        font-size: 20px;
+    }
+    .span_last_vhod {
+        font-size: 22px;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .img_green_left{
+        max-width: 300px;
+        height: 459px;
+    }
+    .img_blue_right{
+        max-width: 300px;
+        height: 508px;
+    }
+    .vhod{
+        margin-top: 100px;
+        max-width: 314px;
+        height: 345px;
+    }
+    .inp_name_vhod{
+        max-width: 270px;
+        height: 40px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .line_vhod{
+        width: 270px;
+        margin-left: 20px;
+    }
+}
