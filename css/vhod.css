@@ -1,0 +1,149 @@
+:root {
+    --font-family: "Advent Pro", sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background: #1a222e;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.img_box {
+    display: flex;
+}
+
+.img_green_left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.img_blue_right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+
+
+
+.vhod {
+    border-radius: 50px;
+    width: 764px;
+    height: 505px;
+    box-shadow: 0 15px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #f1f7ff;
+    margin: 240px auto;
+}
+
+.glag_block_vhod {
+    font-family: var(--font-family);
+    max-width: 900;
+    font-size: 64px;
+    line-height: 195%;
+    text-align: center;
+    color: #000;
+}
+
+.title_vhod {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 155%;
+    text-align: center;
+    color: #000;
+}
+
+.box_vhod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inp_name_vhod {
+    font-family: var(--font-family);
+    font-weight: 800;
+    max-width: 633px;
+    height: 80px;
+    font-size: 32px;
+    line-height: 391%;
+    text-align: left;
+    color: #c3cacc;
+    background: #f1f7ff;
+    border: none;
+    margin-left: 74px;
+}
+
+.line_vhod {
+    max-width: 633px;
+    height: 2px;
+    background-color: #c3cacc;
+    margin-left: 60px;
+}
+
+
+
+
+
+.button_box {}
+.salka_btn{
+    cursor: pointer;
+}
+.btn {
+    width: 635px;
+    height: 95px;
+    margin: 40px auto 0;
+    background: linear-gradient(268deg, #44eb99 0%, #36c5f0 100%);
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #f1f7ff;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.title_last_vhod {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #000;
+
+}
+
+.span_last_vhod {
+    font-size: 40px;
+    background: linear-gradient(270deg, #44eb99 0%, #36c5f0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto;
+}
